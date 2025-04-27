@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contain{max-width: 1220px; margin: 0 auto;}
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 40px;
+}
+li {
+  list-style: none;
+  color: grey;
+}
+li:hover {
+  color: black;
+  transition: 0.5s all ease;
+}
+.text > button {
+  width: 157px;
+  height: 39px;
+  background: #458ff6;
+  border-radius: 55px;
+  border: 0;
+  color: white;
+  margin-top: 30px;
+}
+.text > button:hover {
+  width: 197px;
+  transition: 0.3s all ease;
+  height: 49px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.text {
+  margin-top: 130px;
+}
+.text > h1 {
+  font-size: 45px;
+}
+.text > p {
+  color: grey;
+  margin-top: 20px;
+}
+.texts {
+  text-align: center;
+  margin-top: 50px;
+}
+.texts > p {
+  margin-top: 70px;
+  color: #7d7987;
+}
+.hovers > div {
+  padding: 20px;
+  padding-top: 50px;
+  padding-left: 30px;
+  border-radius: 20px;
+  background: #e7e7e7;
+  width: 320px;
+  height: 320px;
+}
+.hovers {
+  margin-top: 50px;
+  gap: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.hovers > div:hover {
+  background: #5a98f2;
+  color: white;
+  transition: 0.3s all ease;
+}
+.hovers > div > h1 {
+  margin-top: 20px;
+}
+.hovers > div > p {
+  margin-top: 30px;
+}
+.but {
+  border: 1px solid #458ff6;
+  color: #458ff6;
+  width: 200px;
+  height: 55px;
+  border-radius: 55px;
+  background: white;
+  font-size: 18px;
+}
+.butt {
+  text-align: center;
+  margin-top: 40px;
+}
+.butt > h1 {
+  margin-top: 50px;
+  font-size: 50px;
+}
+.info{display: flex; gap: 80px;}
+.text2{margin-top: 150px;}
+.text2>h1{font-size: 35px; margin-bottom: 50px;}
+.text2>p{color: #7d7987; font-size: 20px;}
+.text2>button{margin-top: 30px;}
+.info{margin-top: 50px;}
+main>h1{text-align: center; margin-top: 100px; 
+font-size: 40px;}
+.card,.card1,.card2,.card3{width: 380px;
+    height: 516px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    }
+
+    .cardbody{padding: 20px;
+   
+    }
+    .cardbody>p{margin-top: 20px; color: #7d7987;
+        margin-bottom: 20px;}
+        .cardbody>h1{font-size: 25px;}
+
+    .cardbody>p:nth-child(3){color: #458ff6}
+    .cardbody>p>img{margin-left: 10px;}
+
+    .cardttt{display: flex;flex-direction: row; gap: 50px;margin-top: 100px;}
+    .card3{position: absolute; right: 40px; bottom: -2302px;}
+    .contain>img{margin-left: -80px;}
+
+
+
+
+
